@@ -4,7 +4,6 @@ import org.Main;
 import picocli.CommandLine;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.concurrent.Callable;
 
 @CommandLine.Command(name = "sum", description = "sum list of numbers")

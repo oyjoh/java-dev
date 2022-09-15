@@ -15,7 +15,6 @@ public class Mul implements Callable<Integer> {
 
     @Override
     public Integer call() throws Exception {
-        System.out.println(CommandLine.ScopeType.valueOf("threads"));
         System.out.println("res: " + (a*b));
         return 0;
     }
